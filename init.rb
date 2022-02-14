@@ -3,10 +3,9 @@ Redmine::Plugin.register :ext_id do
   author 'Andrey Pakki'
   description 'This is a plugin for Redmine'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/Pakki/redmine-ext_id'
+  author_url 'https://github.com/Pakki'
 end
-
 
 Issue.safe_attributes 'ext_id'
 require_dependency 'ext_id_hook_listener'
