@@ -1,0 +1,7 @@
+
+<% if @issue.safe_attribute? 'ext_id' %>
+  <p>
+    <%= form.label_for_field :ext_id, :label => t(:field_ext_id)%>
+    <%= form.text_field :ext_id, :title => t(:field_ext_id), :no_label => true, :size => 3, :maxlength => 15, :editable => true %>
+  </p>
+<% end %>

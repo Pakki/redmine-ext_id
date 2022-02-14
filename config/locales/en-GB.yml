@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en-GB:
+  # my_label: "My label"
+  field_ext_id: External ID

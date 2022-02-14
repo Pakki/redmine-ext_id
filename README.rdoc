@@ -1,0 +1,4 @@
+= ext_id
+
+This is Redmine plugin example.
+It adds new field to issues - `ext_id` (External ID).
